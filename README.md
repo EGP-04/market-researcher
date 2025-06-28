@@ -1,4 +1,4 @@
-# 📊 Market Researcher – RAG Agent for Mobile Dataset
+# 📊 Market Researcher – RAG Agent for Supply Hole Detection
 
 A lightweight LLaMA-powered AI agent that answers natural language questions about mobile phone specifications using a CSV dataset, embeddings, and Retrieval-Augmented Generation (RAG). This is a prototype model for finding holes in the market for any product.
 
