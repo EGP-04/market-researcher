@@ -1,15 +1,31 @@
-# market-researcher
+# 📊 Market Researcher – RAG Agent for Mobile Dataset
 
-## How to run it 
-Download ollama from https://ollama.com/download
+A lightweight LLaMA-powered AI agent that answers natural language questions about mobile phone specifications using a CSV dataset, embeddings, and Retrieval-Augmented Generation (RAG).
+
+---
+
+## 🚀 How to Run
+
+### 1. Download & Start Ollama
+Install Ollama from the official site:
+
+👉 [https://ollama.com/download](https://ollama.com/download)
+
+Then pull the required models:
+
+```bash
 ollama pull mxbai-embed-large
 ollama pull llama3
 
-install the dependencies in requirements.txt
+pip install -r requirements.txt
 
-uvicorn fastAPI_:app --reload    
+uvicorn fastAPI_:app --reload
 
-now take served localhost link and paste it in web.py response part
+```
 
+now look at where the app is served and copy the corresponding localhost link to response in web.py
+then run
+
+```bash
 streamlit run web.py
-
+```
