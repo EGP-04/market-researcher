@@ -15,16 +15,20 @@ Then pull the required models:
 ```bash
 ollama pull mxbai-embed-large
 ollama pull llama3
+```
 
+install required python libraries
+```bash
 pip install -r requirements.txt
+```
 
+run the fastAPI app
+```bash
 uvicorn fastAPI_:app --reload
-
 ```
 
 now look at where the app is served and copy the corresponding localhost link to response in web.py
 then run
-
 ```bash
 streamlit run web.py
 ```
