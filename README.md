@@ -6,11 +6,11 @@ A lightweight LLaMA-powered AI agent that answers natural language questions abo
 
 ## 🚀 How to Run
 
-Install Ollama from the official site:
+install Ollama from the official site:
 
 👉 [https://ollama.com/download](https://ollama.com/download)
 
-Then pull the required models:
+pull the required models:
 
 ```bash
 ollama pull mxbai-embed-large
