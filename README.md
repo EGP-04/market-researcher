@@ -1,12 +1,11 @@
 # 📊 Market Researcher – RAG Agent for Mobile Dataset
 
-A lightweight LLaMA-powered AI agent that answers natural language questions about mobile phone specifications using a CSV dataset, embeddings, and Retrieval-Augmented Generation (RAG).
+A lightweight LLaMA-powered AI agent that answers natural language questions about mobile phone specifications using a CSV dataset, embeddings, and Retrieval-Augmented Generation (RAG). This is a prototype model for finding holes in the market for any product.
 
 ---
 
 ## 🚀 How to Run
 
-### 1. Download & Start Ollama
 Install Ollama from the official site:
 
 👉 [https://ollama.com/download](https://ollama.com/download)
